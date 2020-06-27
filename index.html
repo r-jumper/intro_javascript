@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina com javascript</title>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <h1>Pagina criada para fins didáticos</h1>
+    <button type ="button" onclick= "clicar()">Clicque para exibir</button>
+    <p id= "agradecimento"></p>
+    
+    <button type ="button" onclick= "redirecionar()">Venha para DIO</button>
+    <p id= "redireciona"></p>
+
+    <button type = "button" onmouseover="trocar()">Aponte para trocar</button>
+    <p id= "troca"></p>
+
+    <!--outra forma-->
+
+    <button type ="button" onclick= "clicar()">Mostrar</button>
+    <p></p>
+    <p onmouseover="trocar1(this)" onmouseout="voltar1(this)">Passe o mouse aqui.</p>
+    <p onmouseover="trocar1(this)" onmouseout="voltar1(this)">Passe o mouse aqui.</p>
+    <p onmouseover="trocar1(this)" onmouseout="voltar1(this)">Passe o mouse aqui.</p>
+
+    <select onchange="funcaoChange(this)">
+        <option value=" ">Default</option>
+        <option value="Fernando">Firts name</option>
+        <option value="Ramos">Last name</option>
+        <option value="41 anos">idade</option>
+    </select>
+
+</body>
